@@ -1,0 +1,6 @@
+# Ignore files related to API keys
+.env
+
+# Ignore all node_modules
+node_modules
+temp_files

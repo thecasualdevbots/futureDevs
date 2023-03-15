@@ -1,0 +1,23 @@
+{
+  "name": "futuredevs",
+  "version": "0.0.1",
+  "description": "Source code for the Future Bot",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecasualdevbots/futureDevs.git"
+  },
+  "author": "Future Devs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thecasualdevbots/futureDevs/issues"
+  },
+  "homepage": "https://github.com/thecasualdevbots/futureDevs#readme",
+  "dependencies": {
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3"
+  }
+}
