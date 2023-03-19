@@ -1,6 +1,6 @@
 const { Events } = require ('discord.js');
 
-// Code that runs on start 
+// Code that sends the Boot up log
 
 module.exports = {
 	
