@@ -1,4 +1,4 @@
-const { SlashCommandBuilder } = require('discord.js');
+const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 
 module.exports = {
 
@@ -7,7 +7,12 @@ module.exports = {
 		.setDescription('Pong!'),
 
 	async execute(interaction) {
-		await interaction.reply(`🏓 Pong! -- **${interaction.client.ws.ping}ms**`);
+
+		const pingEmbed = new EmbedBuilder()
+			.setColor(0xb48dc4)
+			.setDescription(`🏓 Pong! -- **${interaction.client.ws.ping}ms**`)
+
+		await interaction.reply({ embeds: [pingEmbed] });
 	},
 
 };
