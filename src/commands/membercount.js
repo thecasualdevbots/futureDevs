@@ -5,7 +5,8 @@ module.exports = {
 
 	data: new SlashCommandBuilder()
 		.setName('membercount')
-		.setDescription('Shows member '),
+		.setDescription('Shows member ')
+		.setDMPermission(false),
 
 	async execute(interaction) {
 

@@ -7,7 +7,7 @@ module.exports = {
 		.setDescription('Sends some secret test 🐋'),
 
 	async execute(interaction) {
-		await interaction.reply({ content: `Shhh, this is a secert ${interaction.user.username}`, ephemeral: true });
+		await interaction.reply({ content: `Shhh, this is a secert *${interaction.user.id}*`, ephemeral: true });
 	}
 
 };
